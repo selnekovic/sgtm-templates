@@ -1,0 +1,750 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-01-19 10:08:39",
+    "containerVersion": {
+        "path": "accounts/6198887352/containers/204290855/versions/0",
+        "accountId": "6198887352",
+        "containerId": "204290855",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6198887352/containers/204290855",
+            "accountId": "6198887352",
+            "containerId": "204290855",
+            "name": "selnekovic.com | Artisma",
+            "publicId": "GTM-WN9QXNVL",
+            "usageContext": [
+                "SERVER"
+            ],
+            "fingerprint": "1737279250252",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6198887352/containers/204290855/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": true,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": true
+            },
+            "tagIds": [
+                "GTM-WN9QXNVL"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "tagId": "13",
+                "name": "GAds - Conversion Events - DE",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{CT - GAds - Conversion ID - DE}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{LT - GAds - Conversion Labels - DE}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737281185657",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "tagId": "16",
+                "name": "GAds - Conversion Events - NL",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{CT - GAds - Conversion ID - NL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{LT - GAds - Conversion Labels - NL}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737281185658",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "tagId": "17",
+                "name": "Conversion Linker",
+                "type": "sgtmadscl",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkerParams",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737281247766",
+                "firingTriggerId": [
+                    "2147479574"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "tagId": "18",
+                "name": "GAds - Conversion Events - SK",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{CT - GAds - Conversion ID - SK}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{LT - GAds - Conversion Labels - SK}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1737281185658",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "parentFolderId": "19",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "triggerId": "12",
+                "name": "GAds - Conversion Events",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{LT - GAds - Conversion Events}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737281185658",
+                "parentFolderId": "19"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "3",
+                "name": "CT - GAds - Conversion ID - DE",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "**Conversion ID**"
+                    }
+                ],
+                "fingerprint": "1737281185683",
+                "parentFolderId": "19",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "4",
+                "name": "CT - GAds - Conversion ID - SK",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "**Conversion ID**"
+                    }
+                ],
+                "fingerprint": "1737281185683",
+                "parentFolderId": "19",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "5",
+                "name": "CT - GAds - Conversion ID - NL",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "**Conversion ID**"
+                    }
+                ],
+                "fingerprint": "1737281185683",
+                "parentFolderId": "19",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "10",
+                "name": "LT - GAds - Conversion Labels - DE",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Event Name}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "sign_up"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "generate_lead"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_to_cart"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "purchase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737281185684",
+                "parentFolderId": "19",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "11",
+                "name": "LT - GAds - Conversion Events",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Event Name}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "sign_up"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "generate_lead"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_to_cart"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "purchase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737281185684",
+                "parentFolderId": "19",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "14",
+                "name": "LT - GAds - Conversion Labels - NL",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Event Name}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "sign_up"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "generate_lead"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_to_cart"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "purchase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737281185684",
+                "parentFolderId": "19",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "variableId": "15",
+                "name": "LT - GAds - Conversion Labels - SK",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Event Name}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "sign_up"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "generate_lead"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "add_to_cart"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "purchase"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "**conversion_label**"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1737281185684",
+                "parentFolderId": "19",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "folderId": "19",
+                "name": "GAds",
+                "fingerprint": "1737281184880"
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "folderId": "20",
+                "name": "PLACEHOLDERS",
+                "fingerprint": "1737281235414"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "type": "CLIENT_NAME",
+                "name": "Client Name"
+            }
+        ],
+        "fingerprint": "1737281319592",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6198887352/containers/204290855/versions/0?apiLink=version",
+        "client": [
+            {
+                "accountId": "6198887352",
+                "containerId": "204290855",
+                "clientId": "1",
+                "name": "GA4",
+                "type": "gaaw_client",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateDefaultPaths",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieManagement",
+                        "value": "server"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieName",
+                        "value": "FPID"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookiePath",
+                        "value": "/"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieMaxAgeInSec",
+                        "value": "63072000"
+                    }
+                ],
+                "fingerprint": "1737281236153",
+                "parentFolderId": "20"
+            }
+        ]
+    }
+}
