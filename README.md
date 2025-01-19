@@ -5,6 +5,7 @@
 - FB CAPI (Maxlead mod)
 - FB CONVERSION API tag (mod) - legacy
 - Value Based Bidding (exploration) 
+- GAds Multidomain Template
 
 
 
